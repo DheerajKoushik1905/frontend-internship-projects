@@ -46,5 +46,5 @@ Use the same commands inside `07-react-blog-ui`.
 **Rolla Dheeraj Koushik**  
 B.Tech Computer Science & Engineering (AI & ML), SRM University-AP
 
-- GitHub: https://github.com/tycoon-codes195
+- GitHub: https://github.com/DheerajKoushik1905
 - LinkedIn: https://www.linkedin.com/in/dheeraj-koushik-rolla-3217a4422/
