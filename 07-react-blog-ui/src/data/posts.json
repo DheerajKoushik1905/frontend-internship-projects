@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Designing Interfaces That Feel Calm",
+    "excerpt": "A practical look at spacing, hierarchy, contrast, and the small choices that make an interface easier to use.",
+    "category": "Design",
+    "date": "Sep 28, 2026",
+    "readTime": "5 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u2726",
+    "accent": "#dfe7ff"
+  },
+  {
+    "id": 2,
+    "title": "What I Learned Building With React Components",
+    "excerpt": "Reusable components make interfaces easier to reason about. Here are the patterns that made the biggest difference.",
+    "category": "React",
+    "date": "Sep 24, 2026",
+    "readTime": "6 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u269b",
+    "accent": "#e4ddff"
+  },
+  {
+    "id": 3,
+    "title": "CSS Grid vs Flexbox: A Practical Guide",
+    "excerpt": "Use Flexbox for one-dimensional alignment and Grid for two-dimensional layout. The best projects usually use both.",
+    "category": "CSS",
+    "date": "Sep 19, 2026",
+    "readTime": "4 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u25a6",
+    "accent": "#d9f0e4"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript Validation Without Frustrating Users",
+    "excerpt": "Validation works best when messages are specific, timely, and close to the field that needs attention.",
+    "category": "JavaScript",
+    "date": "Sep 15, 2026",
+    "readTime": "7 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u2713",
+    "accent": "#ffe1d7"
+  },
+  {
+    "id": 5,
+    "title": "Starting My Journey in AI and Machine Learning",
+    "excerpt": "A student perspective on building programming fundamentals before moving deeper into AI and ML projects.",
+    "category": "AI & ML",
+    "date": "Sep 10, 2026",
+    "readTime": "5 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u25ce",
+    "accent": "#fff0c7"
+  },
+  {
+    "id": 6,
+    "title": "How I Structure Small Frontend Projects",
+    "excerpt": "A repeatable folder structure keeps HTML, CSS, JavaScript, assets, and documentation easy to navigate.",
+    "category": "Web",
+    "date": "Sep 06, 2026",
+    "readTime": "4 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u2301",
+    "accent": "#d8edf0"
+  },
+  {
+    "id": 7,
+    "title": "Responsive Design Is More Than Media Queries",
+    "excerpt": "Good responsive design starts with flexible content, sensible constraints, and layouts that adapt naturally.",
+    "category": "Design",
+    "date": "Aug 30, 2026",
+    "readTime": "6 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u2194",
+    "accent": "#f0dfec"
+  },
+  {
+    "id": 8,
+    "title": "From Coursework to Real Projects",
+    "excerpt": "Small projects are a useful bridge between concepts learned in class and the decisions required in practical software work.",
+    "category": "Web",
+    "date": "Aug 24, 2026",
+    "readTime": "5 min",
+    "author": "Dheeraj Koushik",
+    "emoji": "\u2197",
+    "accent": "#e9e6d5"
+  }
+]

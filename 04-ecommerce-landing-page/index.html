@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NovaCart responsive e-commerce landing page demo." />
+  <title>NovaCart | Everyday Essentials</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">Free delivery on demo orders above ₹999 · Internship project</div>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">NOVA<span>CART</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#new">New</a><a href="#categories">Categories</a><a href="#products">Best sellers</a><a href="#story">Our story</a>
+      </div>
+      <button class="cart" type="button" aria-label="Shopping cart">Cart <span id="cart-count">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Modern essentials · Thoughtfully selected</p>
+          <h1>Good design for your everyday.</h1>
+          <p>Discover simple, useful products for your desk, home, and daily routine in a clean e-commerce experience.</p>
+          <a class="primary-btn" href="#products">Shop the collection →</a>
+          <div class="trust"><span>✓ Responsive</span><span>✓ Accessible</span><span>✓ No framework</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative product composition">
+          <div class="blob blob-a"><span>☕</span><small>Ceramic mug</small></div>
+          <div class="blob blob-b"><span>🎧</span><small>Studio audio</small></div>
+          <div class="blob blob-c"><span>⌨️</span><small>Desk setup</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">Browse</p><h2>Shop by category</h2></div><p>Simple categories for a frictionless shopping experience.</p></div>
+        <div class="category-grid">
+          <article><div>⌂</div><h3>Home</h3><p>Calm details for everyday spaces.</p></article>
+          <article><div>⌘</div><h3>Workspace</h3><p>Tools that keep your desk focused.</p></article>
+          <article><div>◉</div><h3>Audio</h3><p>Sound for study and downtime.</p></article>
+          <article><div>✦</div><h3>Lifestyle</h3><p>Useful pieces for daily routines.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">Popular picks</p><h2>Best sellers</h2></div><div class="filters" aria-label="Product filters"><button class="active" data-filter="all">All</button><button data-filter="workspace">Workspace</button><button data-filter="home">Home</button><button data-filter="audio">Audio</button></div></div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="container story-grid">
+        <div class="story-art"><span>NC</span></div>
+        <div><p class="eyebrow">Our story</p><h2>Less clutter. Better choices.</h2><p>NovaCart is a fictional storefront created for a frontend internship assignment. The goal is to demonstrate responsive layout design, product cards, navigation, filtering, and small JavaScript interactions.</p><a href="#products">Explore products →</a></div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-inner"><div><p class="eyebrow">Newsletter</p><h2>Fresh finds, occasionally.</h2></div><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="you@example.com" required /><button>Join list</button></form><p id="newsletter-message" aria-live="polite"></p></div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="logo" href="#home">NOVA<span>CART</span></a><p>Frontend internship project by Rolla Dheeraj Koushik.</p><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

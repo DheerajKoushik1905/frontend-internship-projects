@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox & Grid Layout Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Layout<span>Lab</span></div>
+    <nav><a href="#dashboard">Dashboard</a><a href="#grid-demo">Grid</a><a href="#flex-demo">Flexbox</a></nav>
+    <div class="profile"><div class="avatar">DK</div><span>Dheeraj</span></div>
+  </header>
+
+  <main class="shell" id="dashboard">
+    <aside class="sidebar">
+      <p>Workspace</p>
+      <a class="active" href="#dashboard">Overview</a>
+      <a href="#grid-demo">CSS Grid</a>
+      <a href="#flex-demo">Flexbox</a>
+      <a href="#notes">Notes</a>
+    </aside>
+
+    <section class="content">
+      <div class="welcome"><div><p class="eyebrow">Assignment 05</p><h1>Flexbox + Grid</h1><p>A responsive dashboard built to demonstrate where each layout system works best.</p></div><div class="status">● Layout ready</div></div>
+
+      <section class="stats" id="flex-demo" aria-label="Flexbox statistics">
+        <article><span>Flexbox</span><strong>1D</strong><p>Great for rows, columns, alignment, and distributing space.</p></article>
+        <article><span>Grid</span><strong>2D</strong><p>Ideal for layouts that control both rows and columns.</p></article>
+        <article><span>Responsive</span><strong>100%</strong><p>Cards adapt from wide desktop layouts to small screens.</p></article>
+      </section>
+
+      <section id="grid-demo">
+        <div class="section-head"><div><p class="eyebrow">CSS Grid demo</p><h2>Project board</h2></div><span>6 cards</span></div>
+        <div class="project-grid">
+          <article class="feature-card"><div class="icon">⌘</div><div><small>Featured</small><h3>Responsive portfolio</h3><p>Uses a two-column layout that collapses cleanly on smaller screens.</p></div></article>
+          <article><div class="icon">≡</div><small>UI</small><h3>Navigation</h3><p>Flexbox aligns the brand, links, and user controls.</p></article>
+          <article><div class="icon">✓</div><small>JS</small><h3>Validation</h3><p>A compact card inside the same flexible grid.</p></article>
+          <article><div class="icon">▦</div><small>CSS</small><h3>Grid areas</h3><p>Grid manages card width without hard-coded positions.</p></article>
+          <article><div class="icon">↔</div><small>CSS</small><h3>Flex alignment</h3><p>Flexbox keeps small UI groups aligned and spaced.</p></article>
+          <article><div class="icon">↘</div><small>Responsive</small><h3>Auto fit</h3><p>The layout automatically adjusts as available space changes.</p></article>
+        </div>
+      </section>
+
+      <section class="notes" id="notes"><p class="eyebrow">Key idea</p><h2>Choose the layout tool that matches the problem.</h2><p>Use Flexbox for one-dimensional alignment and CSS Grid for two-dimensional page or card layouts. They are complementary, not competing, tools.</p></section>
+    </section>
+  </main>
+</body>
+</html>

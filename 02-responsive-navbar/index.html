@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo">DK<span>•</span></a>
+      <button class="menu-button" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu" id="menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <p class="eyebrow">Assignment 02</p>
+        <h1>A responsive navigation bar that feels good on every screen.</h1>
+        <p>The menu uses semantic HTML, CSS media queries, and JavaScript to provide an accessible hamburger menu on smaller devices.</p>
+        <a class="button" href="#features">Explore features ↓</a>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container cards">
+        <article><strong>01</strong><h2>Responsive</h2><p>Desktop links collapse into a clean mobile menu below 760px.</p></article>
+        <article><strong>02</strong><h2>Accessible</h2><p>The toggle exposes its expanded state and has an informative label.</p></article>
+        <article><strong>03</strong><h2>Simple</h2><p>No framework is required—only HTML, CSS, and a few lines of JavaScript.</p></article>
+      </div>
+    </section>
+
+    <section class="section muted" id="about"><div class="container narrow"><p class="eyebrow">About</p><h2>Built as a focused frontend exercise.</h2><p>This project demonstrates a common responsive navigation pattern while keeping the markup semantic and the interactions keyboard-friendly.</p></div></section>
+    <section class="section" id="contact"><div class="container narrow"><p class="eyebrow">Contact</p><h2>Thanks for viewing the demo.</h2><a class="button dark" href="mailto:dheerajkoushik08@gmail.com">Email Dheeraj</a></div></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Form Validation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="intro">
+      <p class="kicker">Assignment 03</p>
+      <h1>Smart form validation with helpful feedback.</h1>
+      <p>This demo validates user input in the browser and shows clear, field-specific messages without reloading the page.</p>
+      <ul>
+        <li>Required-field checks</li>
+        <li>Email format validation</li>
+        <li>Password strength and matching</li>
+        <li>Live character count</li>
+      </ul>
+    </section>
+
+    <section class="form-panel" aria-labelledby="form-title">
+      <div class="form-heading"><p>Get in touch</p><h2 id="form-title">Contact form</h2></div>
+      <div id="success" class="success" role="status" aria-live="polite" hidden>✓ Form validated successfully. No data was sent anywhere.</div>
+      <form id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Rolla Dheeraj Koushik" />
+          <small class="error" id="name-error"></small>
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="name@example.com" />
+          <small class="error" id="email-error"></small>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="new-password" placeholder="Minimum 8 characters" />
+            <small class="error" id="password-error"></small>
+          </div>
+          <div class="field">
+            <label for="confirm-password">Confirm password</label>
+            <input id="confirm-password" name="confirmPassword" type="password" autocomplete="new-password" placeholder="Repeat password" />
+            <small class="error" id="confirm-password-error"></small>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="label-row"><label for="message">Message</label><span><b id="count">0</b>/250</span></div>
+          <textarea id="message" name="message" rows="5" maxlength="250" placeholder="Write at least 10 characters..."></textarea>
+          <small class="error" id="message-error"></small>
+        </div>
+
+        <label class="check-row">
+          <input id="terms" name="terms" type="checkbox" />
+          <span>I confirm the information is ready to validate.</span>
+        </label>
+        <small class="error standalone" id="terms-error"></small>
+
+        <button type="submit">Validate form →</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
